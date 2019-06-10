@@ -19,16 +19,16 @@ h3{
 	text-align: center;
 }
 
-.jp, .cp{
+#jp, #cp{
 	border: groove;
 	padding: 14px 20px;
 	margin: 10px;
 }
 @media screen and (max-width: 1200px) {
-	.jp{
+	#jp{
 		margin: 5px;
 	}
-	.cp{
+	#cp{
 		margin: 5px;
 	}
 	ul{
