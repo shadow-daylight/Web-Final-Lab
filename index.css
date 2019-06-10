@@ -3,7 +3,9 @@
 
 body, html{
 	height: 100%;
+	width: 100%;
 	margin: 0;
+	padding: 0;	
 }
 
 .open{
@@ -14,6 +16,7 @@ body, html{
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+	width: 100%;
 }
 
 .id{
