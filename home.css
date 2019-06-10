@@ -46,7 +46,7 @@ li{
     width: 50%;
 }
 
-.icon, .icons{
+.icon{
     float: left;
     padding-left: 10px;
     height: 25%;
@@ -55,11 +55,31 @@ li{
 }
 
 .icons{
-    padding-top: 10px;
+    height: 75%;
+    width: 75%;
 }
 
-.wd{
+.e{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    width: inherit;
+}
+
+.sp{
+    padding-right: 100px;
+    margin-right: 200px;
+}
+
+.wd, .wds{
     text-align: center;
+}
+
+.wds{
+    margin: 0px auto;
 }
 
 div{
