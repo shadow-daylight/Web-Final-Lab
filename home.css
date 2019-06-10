@@ -12,7 +12,6 @@
 .abt{
     text-align: center;
     width: 100%;
-    padding: 16px 14px;
     float: left;
 }
 
@@ -28,7 +27,6 @@
     text-align: left;
 	float: left;
 	width: 50%;
-	padding: 16px 14px;
 	margin-left:50px;
     display: table-cell;
     font-size: 20px;
@@ -41,6 +39,27 @@
 
 li{
     line-height: 50px;
+}
+
+.com{
+    margin-left: 400px;
+    width: 50%;
+}
+
+.icon, .icons{
+    float: left;
+    padding-left: 10px;
+    height: 25%;
+    width: 25%;
+    margin-left: 5%;
+}
+
+.icons{
+    padding-top: 10px;
+}
+
+.wd{
+    text-align: center;
 }
 
 div{
