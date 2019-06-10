@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.r{
+	background-color: antiquewhite;
+	border: ridge;
+	display: block;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.mail{
+	float: left;
+	width: 32%;
+	padding: 10px;
+	text-align: center;
+}
+
+.phone{
+	float: left;
+	width: 32%;
+	padding: 10px;
+	text-align: center;
+}
+
+.linkedin{
+	float: right;
+	width: 32%;
+	padding: 10px;
+	text-align: center;
+}
+
+.cc{
+	clear: both;
+}
+@media screen and (max-width: 1200px) {
+	.mail{
+		float: none;
+		width: 90%;
+		
+	}
+	.phone{
+		float: none;
+		width: 90%;
+	}
+	.linkedin{
+		float:none;
+		width: 90%;
+	}
+	img{
+		margin-left: 0%;
+	}
+	.p{
+		width: 100%;
+		text-align: center;
+	}
+	.cc{
+		font-size: 10px;
+	}
+	
+}
