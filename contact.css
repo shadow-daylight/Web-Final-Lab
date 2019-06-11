@@ -12,32 +12,29 @@ h2{
 	display: block;
 	text-align: center;
 	box-sizing: border-box;
+	border-radius: 20px;
+	width: 50%;
+	margin: 0px auto;
 }
 
-.mail{
-	float: left;
-	width: 32%;
-	padding: 10px;
-	text-align: center;
+img{
+	width: 50%;
+	height: 50%;
 }
 
-.phone{
-	float: left;
-	width: 32%;
-	padding: 10px;
+.mail, .phone, .linkedin{
 	text-align: center;
-}
-
-.linkedin{
-	float: right;
-	width: 32%;
-	padding: 10px;
-	text-align: center;
+	padding-top: 5%;
 }
 
 .cc{
 	clear: both;
 }
+
+div{
+	border: 1px solid black;
+}
+
 @media screen and (max-width: 1200px) {
 	.mail{
 		float: none;
