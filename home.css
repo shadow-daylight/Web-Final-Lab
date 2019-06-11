@@ -1,3 +1,7 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .pic{
     float: left;
     margin-top:2%;
