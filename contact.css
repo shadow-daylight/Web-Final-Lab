@@ -23,7 +23,7 @@ img{
 	width: 50%;
 	height: 50%;
 }
-.mail, .phone, .linkedin{
+#mail, #phone, #ld{
 	text-align: center;
 	padding-top: 5%;
 }
@@ -32,9 +32,9 @@ img{
 	clear: both;
 }
 
-div{
+/*div{
 	border: 1px solid black;
-}
+}*/
 
 @media screen and (max-width: 1200px) {
 	.mail{
