@@ -35,34 +35,34 @@
 
 .i{
     font-size: 20px;
-}
-
-li{
     line-height: 50px;
 }
-
+    
 .com{
     margin-left: 400px;
-    width: 50%;
+    width: 43%;
 }
 
 .icon{
     float: left;
     padding-left: 10px;
     height: 25%;
-    width: 25%;
+    width: 35%;
     margin-left: 5%;
+    
 }
 
 .icons{
-    height: 70%;
-    width: 70%;
+    height: 17%;
+    width: 100%;
+    margin-left: 14%; 
 }
 
 .e{
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 table{
@@ -76,7 +76,6 @@ table{
     text-align: center;
 }
 
-.wds{
-    margin: 0px auto;
+div{
+    border:solid black;
 }
-
