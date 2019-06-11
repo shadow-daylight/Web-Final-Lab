@@ -13,6 +13,7 @@
     text-align: center;
     width: 100%;
     float: left;
+    padding-bottom:5%;
 }
 
 .hr{ 
@@ -21,6 +22,9 @@
 
 .a{
     font-size: 28px;
+    border:solid black;
+    padding:2% 0;
+    margin-top:0;
 }
 
 .introduce{
@@ -31,6 +35,7 @@
     display: table-cell;
     font-size: 20px;
     line-height: 35px;
+    padding-bottom:5%;
 }
 
 .i{
@@ -39,23 +44,29 @@
 }
     
 .com{
-    margin-left: 400px;
-    width: 43%;
+    margin-left:25%;
+    width: 50%;
 }
 
 .icon{
     float: left;
-    padding-left: 10px;
+    margin-left:5%;
     height: 25%;
     width: 35%;
-    margin-left: 5%;
-    
 }
-
+.tku_icon{
+    float: left;
+    
+    height: 25%;
+    width: 35%;
+    margin-left:5%;
+    padding-top:4%;
+}
 .icons{
     height: 17%;
     width: 100%;
-    margin-left: 14%; 
+    margin-left:14%;
+    
 }
 
 .e{
@@ -76,6 +87,6 @@ table{
     text-align: center;
 }
 
-div{
-    border:solid black;
+.paper{
+    padding:2% 0;
 }

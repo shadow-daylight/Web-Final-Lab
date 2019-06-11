@@ -44,16 +44,16 @@ body, html{
 .dropdown a{
 	text-align: center;
 	display:block;
-	font-size: 16px;
+	font-size: 20px;
 	color: black;
 	padding: 24px 0px;
 	text-decoration: none;
 }
 
 .dropdown{
-	display: inline-block;
+	float:left;
 	overflow: hidden;
-	width: 33%;
+	width: 25%;
 	font-size: 16px;  
 	border: none;
 	outline: none;
@@ -63,7 +63,7 @@ body, html{
 }
 
 .dropdown-content{
-	width: 33%;
+	width: 25%;
 	display: none;
 	position: absolute;
 	background-color: #f9f9f9;
@@ -81,7 +81,7 @@ body, html{
 }
 
 .dropdown-content a:hover{
-  	background-color: #ddd;
+	background-color: #ddd;  
 }
 
 .dropdown:hover {
@@ -107,10 +107,11 @@ body, html{
 	font-size: 18px; 
 	opacity: 0.5;
   }
-  #btn a{
-	  text-decoration: none;
-	  color:#444;
-  }
+  
   #btn:hover{
 	  background-color: black;
   }
+
+  /*div{
+	  border:1px solid black;
+  }*/

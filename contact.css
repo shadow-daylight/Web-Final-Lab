@@ -2,8 +2,10 @@
 /* CSS Document */
 
 h2{
+	padding-top: 5%;
 	text-align: center;
 	text-transform: uppercase;
+	font-size: 28px;
 }
 
 .r{
@@ -21,7 +23,6 @@ img{
 	width: 50%;
 	height: 50%;
 }
-
 .mail, .phone, .linkedin{
 	text-align: center;
 	padding-top: 5%;
