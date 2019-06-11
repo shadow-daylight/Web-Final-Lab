@@ -72,7 +72,6 @@ body{
 }
 .tku_icon{
     float: left;
-    
     height: 25%;
     width: 35%;
     margin-left:5%;
@@ -108,4 +107,30 @@ p{
 .paper{
     padding:2% 0;
     color: white;
+}
+
+.rwd{
+    display:none;
+}
+
+@media screen and (max-width: 1200px) {
+    .pic{
+        display:block;
+        width: 90%
+    }
+    .icon{
+        float: none;
+        align-self: center;
+        margin:auto;
+    
+    }
+    .com{
+        display:none;
+    }
+
+    .rwd{
+        display:block;
+        color:white;
+    }
+
 }
