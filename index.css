@@ -49,3 +49,10 @@ body{
 button{
     color: whitesmoke;
 }
+
+@media screen and (max-width: 1200px) {
+    body{
+        height: 50%;
+        background-color: aliceblue;
+    }   
+}
