@@ -23,6 +23,7 @@ body, html{
 	position: absolute;
 	display: block;
 	width:100%;
+	color:rgb(51, 48, 48);
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -36,7 +37,7 @@ body, html{
 .navbar{
 	/*padding-left: 20%;*/
 	display: block;
-  	background-color: ghostwhite;
+  	background-color:#55d6aa;
 	width: 100%;
 	z-index: 1000;
 }
@@ -45,7 +46,7 @@ body, html{
 	text-align: center;
 	display:block;
 	font-size: 20px;
-	color: black;
+	color: #444;
 	padding: 24px 0px;
 	text-decoration: none;
 }
@@ -56,8 +57,6 @@ body, html{
 	width: 25%;
 	font-size: 16px;  
 	border: none;
-	outline: none;
-	color: white;
 	background-color: inherit;
 	font-family: inherit;
 }
@@ -66,9 +65,10 @@ body, html{
 	width: 25%;
 	display: none;
 	position: absolute;
-	background-color: #f9f9f9;
+	background-color: #888888;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
+	border-radius:0 0 10px 10px;
 }
 
 .dropdown-content a{
@@ -81,11 +81,12 @@ body, html{
 }
 
 .dropdown-content a:hover{
-	background-color: #ddd;  
+	background-color: #dddddd;
+	color:#000;  
 }
 
 .dropdown:hover {
-	background-color: #ddd;
+	background-color: #dddddd;
 }
 
 .dropdown:hover .dropdown-content{
