@@ -10,12 +10,7 @@ i{
 }
 
 body{
-	background-color: antiquewhite;
-}
-
-h2{
-	text-align: center;
-	text-transform: uppercase;
+	background-color: rgb(51, 48, 48);
 }
 
 h3{
@@ -24,24 +19,32 @@ h3{
 }
 
 #jp, #cp{
-	border: groove;
-	padding: 14px 20px;
-	margin: 10px;
+	background-color: rgb(51, 48, 48);
+	display:block;
+	width:60%;
+	margin-left:20%;
+	text-align: center;
+	font-size: 20px;
+	color:white;
+	margin-top:5%;
+	line-height: 35px;
 }
+.title{
+    text-align: center;
+	width: 100%;
+	font-size: 28px;
+    float: left;
+	margin:3% 0;
+	color:white;
+	border:solid white;
+	padding:2% 0;
+	border-radius: 10px;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	display:block;
+}
+
 @media screen and (max-width: 1200px) {
-	#jp{
-		margin: 5px;
-	}
-	#cp{
-		margin: 5px;
-	}
-	ul{
-		font-size: 12px;
-		list-style: none;
-		padding: 0 10px;
-	}
-	li{
-		list-style: none;
-		margin: 0;
-	}
+	/*不需要！*/
 }
