@@ -37,6 +37,8 @@ body{
     margin-top:3%;
     color:white;
     border-radius: 10px;
+    width:80%;
+    margin-left:10%;
 }
 
 .introduce{
@@ -116,7 +118,8 @@ p{
 @media screen and (max-width: 1200px) {
     .pic{
         display:block;
-        width: 90%
+        width: 100%;
+        margin-left: 0;
     }
     .icon{
         float: none;
