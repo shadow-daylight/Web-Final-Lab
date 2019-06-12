@@ -134,6 +134,33 @@ p{
     .rwd{
         display:block;
         color:white;
+        width:  80%;
+        margin-left:10%;
     }
+    .paper{
+        width:80%;
+        margin-left: 10%;
+    }
+    .introduce{
+        display: inline-block;
+        text-align: left;
+        line-height: 50px;
+        width:  80%;
+        padding-bottom:5%;
+        background-color: rgb(51, 48, 48);
+        margin-left:0;
+        color:white;
+        text-align: center;
+        margin-top:5%;
+    }
+    p{
+        font-size:30px;
 
+    }
+    .a{
+        font-size:50px;
+    }
+    .hr{
+        font-size:50px;
+    }
 }
