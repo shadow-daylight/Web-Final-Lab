@@ -46,5 +46,16 @@ h3{
 }
 
 @media screen and (max-width: 1200px) {
-	/*不需要！*/
+	.title{
+		font-size:50px;
+		margin-bottom:15%;
+		font-weight: bold;
+	}
+	.wd{
+		font-size:45px;
+	}
+	#cp,#jp{
+		font-size:40px;
+		line-height: 50px;
+	}
 }
