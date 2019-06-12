@@ -91,11 +91,16 @@ img{
 		text-align: center;
 	}
 	.cc{
-		font-size: 15px;
+		font-size: 30px;
 	}
 	.wd{
-		font-size:15px;
+		font-size:32px;
 		margin:3% 0;
-		color:#444;
+		color:white;
+		font-weight: 550;
+	}
+	.title{
+		font-size: 50px;
+		font-weight: bold;
 	}
 }
